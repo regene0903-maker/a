@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-hp-blue: #024ad8;
+  --color-hp-blue-bright: #296ef9;
+  --color-hp-blue-deep: #0e3191;
+  --color-hp-blue-soft: #c9e0fc;
+  --color-hp-ink: #1a1a1a;
+  --color-hp-ink-deep: #000000;
+  --color-hp-canvas: #ffffff;
+  --color-hp-cloud: #f7f7f7;
+  --color-hp-fog: #e8e8e8;
+  --color-hp-steel: #c2c2c2;
+  --color-hp-charcoal: #3d3d3d;
+  --color-hp-graphite: #636363;
+}
+
+/* Custom scrollbar of HP design styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-hp-steel);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-hp-graphite);
+}
+

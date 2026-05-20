@@ -1,0 +1,6 @@
+{
+  "name": "PickMate",
+  "description": "HP 스타일 디자인 시스템을 적용한 대학생 및 직장인을 위한 노트북 및 프린터 개인 맞춤 추천 서비스 시제품",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
